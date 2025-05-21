@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(187, 186, 186);
+    position: relative;
+}
+
+.DivBox {
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.DivTest1, .DivTest2, .DivTest3 {
+     margin: 0 20px;
+
+}
