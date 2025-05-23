@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(187, 186, 186);
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(129, 129, 129));
+
+
+
     position: relative;
 }
 
