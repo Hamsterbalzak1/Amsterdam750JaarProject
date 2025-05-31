@@ -26,11 +26,12 @@
     margin: auto;
     width: 150px;
     font-family: 'Jersey 10';
-    margin-top: 10px;
+    margin-top: -10px;
     display: flex;
     align-items: center;
     justify-content: center;
     transform: rotate(-15deg);
+    margin-right: 550px;
 }
 
 .menutitel #mini-titel:hover {
