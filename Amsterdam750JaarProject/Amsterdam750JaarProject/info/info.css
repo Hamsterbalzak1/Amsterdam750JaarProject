@@ -1,22 +1,8 @@
 body {
-    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(129, 129, 129));
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(129, 129, 129));
 
 
 
     position: relative;
 }
 
-.DivBox {
-    border: 5px solid rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    padding: 20px;
-    margin: auto;
-    text-align: center;
-}
-
-.DivTest1, .DivTest2, .DivTest3 {
-     margin: 0 20px;
-
-}

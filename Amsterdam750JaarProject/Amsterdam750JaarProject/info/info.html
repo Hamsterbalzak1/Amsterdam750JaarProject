@@ -8,23 +8,40 @@
 </head>
 
 <body>
-    <div class="DivBox">
+    <div class="info-container">
+        <div class="text">
+            <h1 id="info-titel">Wie zijn wij?</h1>
 
-        <div class="DivTest1">
-            <h1 id="h1-titel-1">Game-Design</h1>
-            <p id="p-titel-1">Silko Kochev</p>
+            <p>Wij zijn Jayden, Silko en Rayan. Wij zitten momenteel in het eerste jaar van het Talland College waar wij de Software Development studie volgen. </p> 
+            
+            <h1 id="info-spel">Het spel</h1> 
+            <p>Wij kregen de taak om voor de 750ste jaar van Amsterdam een scrum project aan te maken waar het doel was om een spel te creëren.</p>
+            <p>Hierbij hebben wij een soort platform game gemaakt vergelijkbaar met Mario met onze eigen "pixel" charme.</p>
+            <p>Hoewel het er niet per se goed uit ziet doen wij ons best om van deze scrumproject iets moois te maken waar wij van kunnen leren</p>
+
         </div>
 
-        <div class="DivTest2">
-            <h1 id="h1-titel-2">Art-Design</h1>
-            <p id="p-titel-2">Jayden Blitz</p>
-        </div>
+        <div class="contact">
+            <h1 id="info-contact">Contact</h1>
+            <p>Voor vragen of feedback dien je de form in te vullen. Deze zullen worden verstuurd naar mail van Rayan.</p>
 
-        <div class="DivTest3">
-            <h1 id="h1-titel-3">UltraTest3</h1>
-            <p id="p-titel-3">Test3</p>
+            <form action="mailto:10103560@student.talland.nl" method="post" enctype="text/plain">
+                <label for="name">Naam:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Bericht:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Verstuur">
+        
         </div>
+        <h1></h1>
+
     </div>
+
+        <form class="terug-form">
+            <input type="button" value="Terug" onclick="history.back()">
+        </form>
 </body>
 
 
